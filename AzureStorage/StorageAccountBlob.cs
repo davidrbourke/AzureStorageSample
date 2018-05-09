@@ -6,12 +6,12 @@ using System.IO;
 
 namespace AzureStorage
 {
-    public class StorageAccountManagement
+    public class StorageAccountBlob
     {
         private CloudStorageAccount _storageAccount;
         private CloudBlobContainer _container;
 
-        public StorageAccountManagement()
+        public StorageAccountBlob()
         {
             // Sample run
             CreateAccount();

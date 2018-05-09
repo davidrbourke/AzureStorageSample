@@ -12,7 +12,10 @@ namespace AzureStorage
         static void Main(string[] args)
         {
             // 1. Sample Blob Storage Account
-            var storageAccountManagement = new StorageAccountManagement();
+            // var storageAccountManagement = new StorageAccountBlob();
+
+            // 2. Sample Table Storage Account
+            var storageAccountTable = new StorageAccountTable();
 
             Console.ReadKey();
         }
